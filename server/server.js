@@ -23,9 +23,7 @@ server.use(express.json({limit: '10000kb'}));
 server.use(cors());
 
 
-mongoose.connect(mongodb+srv://daotranthuyan:rxWMArElP5xZV8hm@reactjs-blogging-websit.sovdb.mongodb.net/?retryWrites=true&w=majority&appName=reactjs-blogging-website-yt, {
-  autoIndex: true,
-});
+mongoose.connect(mongodb+srv://daotranthuyan:rxWMArElP5xZV8hm@reactjs-blogging-websit.sovdb.mongodb.net/?retryWrites=true&w=majority&appName=reactjs-blogging-website-yt)
 
 
 const verifyJWT = (req, res,next) => {
