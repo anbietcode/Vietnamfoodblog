@@ -1,0 +1,7 @@
+# "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWU0M2NmMzUyZmNlYzU5MmM4ODMxNiIsImlhdCI6MTcyMjA2ODgyM30.j7gdDfv6G2a6TzGbJvhXwU7rFjv1oDXCBdWuQ7-0YZ8"
+POST  http://localhost:3000/get-profile
+Content-Type: application/json
+
+{
+    "username": "daotranthuyan"
+}
