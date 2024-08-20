@@ -23,7 +23,7 @@ server.use(express.json({limit: '10000kb'}));
 server.use(cors());
 
 
-mongoose.connect(process.env.DB_LOCATION, {
+mongoose.connect(=mongodb+srv://daotranthuyan:6PeKDwsj6hnrs43h@reactjs-blogging-websit.sovdb.mongodb.net/?retryWrites=true&w=majority&appName=reactjs-blogging-website-yt, {
   autoIndex: true,
 });
 
